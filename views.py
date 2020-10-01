@@ -16,9 +16,9 @@
 #Not needed
 #os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 # Note this must be the first line
-from google.appengine.dist import use_library
+from google.appengine.dist import use_library # importing google
 use_library('django', '1.2')
-import os
+import os # importing os
 import cgi
 
 from google.appengine.api import users
